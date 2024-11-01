@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alejandro Ovalle's Homepage</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            display: flex;
+            max-width: 900px;
+            overflow: hidden;
+        }
+        .text-content {
+            padding: 2rem;
+            flex: 1;
+        }
+        .text-content h1 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .text-content p {
+            font-size: 1.0rem;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+        }
+        .button-group {
+            margin-top: 1rem;
+        }
+        .button-group a {
+            display: inline-block;
+            background: #333;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+            margin-right: 1rem;
+        }
+        .button-group a:hover {
+            background: #555;
+        }
+        .image-content {
+            flex: 0.7;
+            background: url('WebseitePic2.jpg') center/cover no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text-content">
+            <h1>Alejandro Ovalle</h1>
+            <p>I am a mathematician interested in enumerative algebraic geometry, moduli spaces of sheaves, derived categories, and the interplay between these areas.</p>
+            <p>Currently, I am writing my master thesis on the Enumerative geometry of K3 surfaces at the University of Bonn under the supervision of Prof. Richard Thomas and Prof. Daniel Huybrechts.</p>
+            <p>To the right, you find a picture of one of my favourite places in Bonn and a small picture of myself..
+            <div class="button-group">
+                <a href="MyCV.pdf">See my CV</a>
+                <a href="teaching.html">Teaching & Projects</a>
+            </div>
+        </div>
+        <div class="image-content"></div>
+    </div>
+</body>
+</html>

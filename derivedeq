@@ -54,7 +54,7 @@
 </head>
 <body>
     <header>
-        <h1>Seminar on Moduli Spaces of Sheaves</h1>
+        <h1>Seminar on Derived equivalences, Derived Torelli and Moduli</h1>
     </header>
     <nav>
         <a href="index.html">Home</a>
@@ -62,28 +62,43 @@
     </nav>
     
     <div class="content">
-
-        <div class="picture">
-            <img src="20250117_201415.jpg" alt="Seminar on Moduli Spaces of Sheaves">
-        </div>
         
         <h2>Overview</h2>
-        <p> The study of the Moduli spaces of sheaves has important implications in different areas of mathematics, e.g. in enumerative geometry. In this reading seminar we will explore the existence as schemes of Moduli spaces of sheaves on K3 surfaces and their geometry. The seminar is mostly based on the book Geometry of Moduli spaces of sheaves by Huybrechts and Lehn. The prerrequisites for this seminar are the courses Algebraic Geometry I and II as taught in Bonn, or equivalently the second and third chapters of Hartshorne's book.</p>
+        We plan to investigate the relationship between the derived category \( D^b(X) \) of a projective variety and the geometry of \( X \). We intend to prove some of the landmarks along the way while gently introducing a geometrically motivated approach to derived categories of coherent sheaves. In the second half, we will see applications such as the Derived and Twisted Derived Global Torelli theorem for K3 surfaces and interesting connections between derived categories and moduli spaces of sheaves. The main reference will be the classic *Fourier-Mukai Transforms in Algebraic Geometry* by Huybrechts.
 
         <h2>Schedule</h2>
-        <p>The seminar will take place weekly during the Winter Semester 2024/25. We meet on fridays in the Mathematics Centre of the University of Bonn at SR0.008 from 18:00 to 20:00. Following talks have been programmed:</p>
-        <ul>
-            <li>Talk 1: Stability conditions (Katerina Papageorgiou Kafka) </li>
-            <li>Talk 2: Representability of Quot scheme (Fabian Schnelle)</li>
-            <li>Talk 3: Geometric invariant theory (Fabian Schnelle)</li>
-            <li>Talk 4: Part I - Construction of the Moduli spaces of (semi)-stable sheaves (Jiaolong Zhang)</li>
-            <li>Talk 5: Part II - Construction of the Moduli spaces of (semi)-stable sheaves (David Ĉadez)</li>
-            <li>Talk 6: Deformation theory of sheaves (Esteban Castillo)</li>
-            <li>Talk 7: K3 surfaces and sheaves on K3s (Philipp von Glasenapp)</li>
-            <li>Talk 8: Smoothness and irreducibility of the Moduli spaces of stable sheaves (Alejandro Ovalle)</li>
-            <li>Talk 9: Birational equivalence of moduli spaces and Hilbert schemes of points (Alejandro Ovalle)</li>
-            <li>Talk 10: Moduli spaces and derived categories (Samir Geiger)</li>
-            <li>Talk 11: Semi-stable vector bundles and p-adic Galois representations (Thomas Karamanis) - cancelled
+        <p>
+
+**Talk 1: Sprint through derived categories**  
+   Give a short overview of the basics concerning the derived category \( D^b(\mathrm{Coh}(X)) \) of coherent sheaves on a projective variety, as well as some of the important derived functors. Don't spend too much time on details of general triangulated categories as in Chapter 1. Talk about derived functors in algebraic geometry (Ch. 3.3), state Serre-Duality (in the language of Serre functors), and Grothendieck-Verdier duality.
+
+**Talk 2: Why Calabi-Yau's are a problem?**  
+   We will see why Calabi-Yau varieties play a special role in the study of the interactions between the geometry of \( X \) and \( D^b(X) \). Explain the ideas behind Proposition 4.11.
+
+**Talk 3: Fourier-Mukai transforms**  
+   The main result of this talk is the Bondal-Orlov Theorem (Proposition 4.11), which states that, under some conditions, from an equivalence of the derived categories of coherent sheaves of two varieties, we can conclude an isomorphism of the varieties.
+
+4. **Talk 4: Derived equivalence vs birationality**  
+   State the D-equivalence conjecture and explain the proof of Proposition 6.19. Illustrate the intimate relationship between birationality and D-equivalence. Try to focus on the ideas and provide as much detail as needed within the given timeframe.
+
+5. **Talk 5: Equivalence criteria**  
+   The idea of this talk is to prove criteria to conclude the equivalence between two derived categories of coherent sheaves, i.e., Proposition 7.6 and Proposition 7.11. Prove also Proposition 7.1, which gives us criteria to use Proposition 7.6.
+
+6. **Talk 6: Descending to cohomology**  
+   In this talk, we will see how Fourier-Mukai functors give maps on cohomology (similar to algebraic cycles as correspondences). Blackbox the Grothendieck-Riemann-Roch formula and show Corollary 5.29. Show that derived equivalences give rise to Hodge isometries on the Mukai lattices. The cornerstones for the proof are Proposition 5.33, Proposition 5.39, and finally Proposition 5.44.
+
+7. **Talk 7: D-equivalence for Abelian varieties**  
+   Define the Albanese variety, the dual Abelian variety, and the Poincar\'e bundle. The main goal of this talk is to prove the result by Mukai (Proposition 9.19) about the equivalence between the derived categories of sheaves of an Abelian variety and its dual.
+
+8. **Talk 8: Derived Global Torelli theorem for K3 surfaces**  
+   We will see a derived version of the celebrated Global Torelli theorem for K3 surfaces. State and explain the classical Global Torelli Theorem (10.4). Prove 10.7 and the Derived Global Torelli Theorem (10.10). Prove 10.25 using the characterization of Fourier-Mukai functors being equivalences.
+
+9. **Talk 9: Mukai reflections**  
+   This talk is based on the article "Some examples of Mukai reflections on K3s" by Yoshioka. The main result of this talk is to prove that, under some conditions, moduli spaces of stable sheaves are deformation equivalent to Hilbert schemes of points by means of reflections in the Mukai lattice, which are particular cases of Fourier-Mukai transforms.
+
+10. **Talk 10: Twisted derived equivalences and Twisted Derived Global Torelli**  
+    Consider how to improve result 10.25 in the case of non-fine moduli spaces of sheaves. Introduce twisted sheaves and twisted universal families. Prove the Twisted Derived Global Torelli Theorem from the acticle .
+
         </ul>
 
         <h2>Contact</h2>
